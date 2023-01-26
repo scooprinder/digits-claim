@@ -48,7 +48,8 @@ function Page() {
 
   return (
     <>
-      <div className="wrapper crt">
+      <div className="wrapper">
+        <p>Requires metamask installed</p>
         <Connect />
 
         {isConnected && (
